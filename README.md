@@ -5,9 +5,9 @@
   <img  src="./images/readme.jpg">
 
   <p align="center">
-    <a href="https://github.com/dsjuneau/home-wallet"»</strong>View the Repo</a>
+    <a href="https://github.com/MichaelGentilini/home-wallet"»</strong>View the Repo</a>
     <br />
-    <a href="https://home-wallet.herokuapp.com/">View Demo</a>
+    <a href="https://my-home-wallet19.herokuapp.com/">View Demo</a>
   	<br />
     <a href="https://docs.google.com/presentation/d/19XJngLKDLOynOFnbC9sPCDKO_QKhv2dHASfrRRBdOkI/edit?usp=sharing">View Slide Show</a>
   </p>
@@ -53,7 +53,7 @@ Home Wallet is like CarFax for your Home. It helps you prioritize and keep track
 
 1. Clone the repo
    <code>
-   git clone https://github.com/dsjuneau/home-wallet.git
+   git clone https://github.com/MichaelGentilini/home-wallet.git
    </code>
 2. Install NPM packages <code>npm i </code> or <code>npm install </code>
 3. Get a free ZWSID from Zillow at [https://www.zillow.com/webservice/Registration.htm](https://www.zillow.com/webservice/Registration.htm)
@@ -108,4 +108,4 @@ Features for the future include :
 
 ## Contact
 
-Project Link: [https://github.com/dsjuneau/home-wallet](https://github.com/dsjuneau/home-wallet)
+Project Link: [https://github.com/MichaelGentilini/home-wallet](https://github.com/MichaelGentilini/home-wallet)
