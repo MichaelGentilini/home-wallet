@@ -66,7 +66,8 @@ export default class AddRepair extends Component {
     let newEvent;
 
     let newRepair = {
-      userId: this.state.userId,
+      // userId: this.state.userId,
+      home: this.state.userId,
       repairType: this.state.repairType,
       title: this.state.title,
       cost: this.state.cost,

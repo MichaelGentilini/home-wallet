@@ -2,7 +2,10 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const docSchema = new Schema({
-  userId: { type: String },
+  home: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Home",
+  },
   fileName: { type: String },
   fileUrl: { type: String },
   date: { type: Date, default: Date.now },

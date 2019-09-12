@@ -54,7 +54,7 @@ export default class AddVendor extends Component {
 
     // create newVendor object
     let newVendor = {
-      userId: this.props.userId,
+      home: this.props.userId,
       vendorName,
       vendorCompany,
       vendorPhone,

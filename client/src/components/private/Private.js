@@ -95,6 +95,7 @@ export class Private extends Component {
       zestimateHigh: zillowData.zestimateHigh,
       zeistimateLow: zillowData.zeistimateLow,
       zillowLink: zillowData.zillowLink,
+      documents: this.props.user.id,
     };
 
     axios.post("/api/home", { formProfile }).then(res => {

@@ -2,7 +2,10 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const vendorSchema = new Schema({
-  userId: { type: String, required: true },
+  home: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Home",
+  },
   vendorName: { type: String },
   vendorCompany: { type: String },
   vendorPhone: { type: String },

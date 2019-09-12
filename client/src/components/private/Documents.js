@@ -65,7 +65,7 @@ export class Documents extends Component {
               let fileName = response.data;
 
               let docDetail = {
-                userId: this.props.userId,
+                home: this.props.userId,
                 fileName: this.state.selectedFile.name,
                 fileUrl: fileName.location,
               };

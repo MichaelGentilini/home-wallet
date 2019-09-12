@@ -2,7 +2,8 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const repairSchema = new Schema({
-  userId: { type: String },
+  // userId: { type: String },
+  home: { type: mongoose.Schema.Types.ObjectId, ref: "Home" },
   repairType: { type: String },
   title: { type: String },
   cost: { type: Number },
@@ -16,13 +17,13 @@ const repairSchema = new Schema({
   repeatDayOfWeek: { type: String },
   startTime: { type: String },
   endTime: { type: String },
-//  startTime: { type: Date, default: Date.now },
-//  endTime: { type: Date, default: Date.now },
+  //  startTime: { type: Date, default: Date.now },
+  //  endTime: { type: Date, default: Date.now },
   vendor: { type: String },
   notes: { type: String },
   duration: { type: String },
   date: { type: Date, default: Date.now },
-//  scope: { type: Schema.Types.ObjectId, ref: 'Bid'  },    // PDF?
+  //  scope: { type: Schema.Types.ObjectId, ref: 'Bid'  },    // PDF?
 });
 
 const Repair = mongoose.model("Repair", repairSchema);
